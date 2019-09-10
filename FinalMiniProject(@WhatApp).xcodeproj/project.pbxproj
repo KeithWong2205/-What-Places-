@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5390ED7722F0634C00B09D8F /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5390ED7622F0634C00B09D8F /* Venue.swift */; };
+		5390ED7822F068D300B09D8F /* Venue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5390ED7622F0634C00B09D8F /* Venue.swift */; };
+		5390ED7B22F0773300B09D8F /* VenueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5390ED7A22F0773300B09D8F /* VenueTableViewCell.swift */; };
+		5390ED7D22F07FBE00B09D8F /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5390ED7C22F07FBE00B09D8F /* TypeViewController.swift */; };
+		5390ED7F22F1752F00B09D8F /* VenueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5390ED7E22F1752F00B09D8F /* VenueTableViewController.swift */; };
 		53DBD60522EB083500BB0141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBD60422EB083500BB0141 /* AppDelegate.swift */; };
-		53DBD60722EB083500BB0141 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBD60622EB083500BB0141 /* ViewController.swift */; };
+		53DBD60722EB083500BB0141 /* VenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBD60622EB083500BB0141 /* VenueViewController.swift */; };
 		53DBD60A22EB083500BB0141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DBD60822EB083500BB0141 /* Main.storyboard */; };
 		53DBD60C22EB083600BB0141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53DBD60B22EB083600BB0141 /* Assets.xcassets */; };
 		53DBD60F22EB083600BB0141 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53DBD60D22EB083600BB0141 /* LaunchScreen.storyboard */; };
 		53DBD61A22EB083600BB0141 /* FinalMiniProject__WhatApp_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBD61922EB083600BB0141 /* FinalMiniProject__WhatApp_Tests.swift */; };
 		53DBD62522EB083600BB0141 /* FinalMiniProject__WhatApp_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBD62422EB083600BB0141 /* FinalMiniProject__WhatApp_UITests.swift */; };
+		53DBD63322EB29A700BB0141 /* RatingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBD63222EB29A700BB0141 /* RatingTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5390ED7622F0634C00B09D8F /* Venue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Venue.swift; sourceTree = "<group>"; };
+		5390ED7A22F0773300B09D8F /* VenueTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueTableViewCell.swift; sourceTree = "<group>"; };
+		5390ED7C22F07FBE00B09D8F /* TypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
+		5390ED7E22F1752F00B09D8F /* VenueTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueTableViewController.swift; sourceTree = "<group>"; };
 		53DBD60122EB083500BB0141 /* FinalMiniProject(@WhatApp).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FinalMiniProject(@WhatApp).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DBD60422EB083500BB0141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		53DBD60622EB083500BB0141 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		53DBD60622EB083500BB0141 /* VenueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueViewController.swift; sourceTree = "<group>"; };
 		53DBD60922EB083500BB0141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		53DBD60B22EB083600BB0141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		53DBD60E22EB083600BB0141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +57,7 @@
 		53DBD62022EB083600BB0141 /* FinalMiniProject(@WhatApp)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FinalMiniProject(@WhatApp)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		53DBD62422EB083600BB0141 /* FinalMiniProject__WhatApp_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalMiniProject__WhatApp_UITests.swift; sourceTree = "<group>"; };
 		53DBD62622EB083600BB0141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DBD63222EB29A700BB0141 /* RatingTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +109,13 @@
 			isa = PBXGroup;
 			children = (
 				53DBD60422EB083500BB0141 /* AppDelegate.swift */,
-				53DBD60622EB083500BB0141 /* ViewController.swift */,
+				53DBD60622EB083500BB0141 /* VenueViewController.swift */,
+				5390ED7622F0634C00B09D8F /* Venue.swift */,
+				53DBD63222EB29A700BB0141 /* RatingTool.swift */,
 				53DBD60822EB083500BB0141 /* Main.storyboard */,
+				5390ED7E22F1752F00B09D8F /* VenueTableViewController.swift */,
+				5390ED7A22F0773300B09D8F /* VenueTableViewCell.swift */,
+				5390ED7C22F07FBE00B09D8F /* TypeViewController.swift */,
 				53DBD60B22EB083600BB0141 /* Assets.xcassets */,
 				53DBD60D22EB083600BB0141 /* LaunchScreen.storyboard */,
 				53DBD61022EB083600BB0141 /* Info.plist */,
@@ -256,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53DBD60722EB083500BB0141 /* ViewController.swift in Sources */,
+				53DBD60722EB083500BB0141 /* VenueViewController.swift in Sources */,
+				5390ED7722F0634C00B09D8F /* Venue.swift in Sources */,
 				53DBD60522EB083500BB0141 /* AppDelegate.swift in Sources */,
+				5390ED7F22F1752F00B09D8F /* VenueTableViewController.swift in Sources */,
+				5390ED7B22F0773300B09D8F /* VenueTableViewCell.swift in Sources */,
+				53DBD63322EB29A700BB0141 /* RatingTool.swift in Sources */,
+				5390ED7D22F07FBE00B09D8F /* TypeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				53DBD61A22EB083600BB0141 /* FinalMiniProject__WhatApp_Tests.swift in Sources */,
+				5390ED7822F068D300B09D8F /* Venue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WRBUV5T87Y;
 				INFOPLIST_FILE = "FinalMiniProject(@WhatApp)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -442,7 +465,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "hcmiu.FinalMiniProject--WhatApp-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -453,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WRBUV5T87Y;
 				INFOPLIST_FILE = "FinalMiniProject(@WhatApp)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "hcmiu.FinalMiniProject--WhatApp-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
